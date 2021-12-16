@@ -14,6 +14,7 @@ import time
 iter_num = 6000
 
 if __name__ == '__main__':
+    print("——————coded by ztc——————")
     data = dataset(read_data(file_path))  # 生成数据集
     groups = population(data, pop_num)  # 初始化种群
     groups1 = population(data, pop_num)
